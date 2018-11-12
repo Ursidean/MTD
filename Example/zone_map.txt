@@ -1,0 +1,67 @@
+																																																																										
+																																																																										
+Zoning of proposed development																									Allocation of Affordable developments																																																	
+O	O	O	O	O	O	O	I	N	N	N	N	I	S	S	S	S	S	G	G	G	G	G			O	O	O	O	O	O	O	I	N	N	N	N	I	S	S	S	S	S	G	G	G	G	G			Key	Land-use																				Scale factors	Preference	Mix Format	
+O	O	O	O	O	O	O	I	N	N	N	N	I	S	S	S	S	S	G	G	G	G	G			O	O	O	O	O	O	O	I	N	N	N	N	I	S	S	S	S	S	G	G	G	G	G			I	"Infrastructure (roads, etc.)"																				High	Private residents	Segmented	
+O	O	O	O	O	O	I	I	I	I	I	I	I	S	S	S	S	S	G	G	G	G	G			O	O	O	O	O	O	I	I	I	I	I	I	I	S	S	S	S	S	G	G	G	G	G			R	Residential																				Medium	Assisted residents	Salt & Pepper	
+O	O	O	O	O	O	I	C	C	C	C	C	I	S	S	S	S	S	G	G	G	G	G			O	O	O	O	O	O	I	C	C	C	C	C	I	S	S	S	S	S	G	G	G	G	G			E	Education																				Low			
+O	O	O	O	O	I	I	C	C	C	C	C	I	S	S	E	E	E	G	G	G	G	G			O	O	O	O	O	I	I	C	C	C	C	C	I	S	S	E	E	E	G	G	G	G	G			C	Commercial																				Ignore			
+O	O	O	O	O	I	I	C	C	C	C	C	I	E	E	E	E	E	G	G	G	G	G			O	O	O	O	O	I	I	C	C	C	C	C	I	E	E	E	E	E	G	G	G	G	G			S	Socio-cultural uses																							
+N	N	N	N	I	C	I	C	C	C	C	C	I	E	E	E	E	E	G	G	G	G	G			N	N	N	N	I	C	I	C	C	C	C	C	I	E	E	E	E	E	G	G	G	G	G			G	"Public greenspace (park, oval etc.)"																							
+N	N	N	N	I	C	I	C	C	C	C	C	C	I	E	E	E	E	G	G	G	G	G			N	N	N	N	I	C	I	C	C	C	C	C	C	I	E	E	E	E	G	G	G	G	G			N	Nature																							
+N	N	N	N	I	C	I	C	C	C	C	C	C	I	E	E	E	E	G	G	G	G	G			N	N	N	N	I	C	I	C	C	C	C	C	C	I	E	E	E	E	G	G	G	G	G			O	Other																							
+N	N	N	N	I	C	I	I	I	I	C	C	C	I	E	E	E	E	G	G	G	G	G			N	N	N	N	I	C	I	I	I	I	C	C	C	I	E	E	E	E	G	G	G	G	G			AH	Affordable Housing																							
+N	N	N	N	I	C	I	C	C	I	C	C	I	I	I	E	E	E	G	G	G	G	G			N	N	N	N	I	C	I	C	C	I	C	C	I	I	I	E	E	E	G	G	G	G	G																											
+N	N	N	N	I	C	I	C	C	I	C	I	I	I	I	S	S	S	G	G	G	G	G			N	N	N	N	I	C	I	C	C	I	C	I	I	I	I	S	S	S	G	G	G	G	G				Mixed Tenure Development Factors																							
+N	N	N	N	I	I	I	I	I	I	I	R	R	R	I	S	S	S	G	G	G	G	G			N	N	N	N	I	I	I	I	I	I	I	R	R	R	I	S	S	S	G	G	G	G	G				Value per lot	" $500,000.00 "																						
+N	N	N	N	I	I	I	I	I	I	R	R	R	R	I	S	S	S	G	G	G	G	G			N	N	N	N	I	I	I	I	I	I	R	R	R	R	I	S	S	S	G	G	G	G	G				Total value	" $67,500,000.00 "																						
+N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	S	S	S	G	G	G	G	G			N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	S	S	S	G	G	G	G	G				% Lots Affordable housing	40%																						
+N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	I	I	I	I	I	N	N	N			N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	I	I	I	I	I	N	N	N				% Value of Affordable housing	50%																						
+N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	I	I	R	R	I	N	N	N			N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	I	I	R	R	I	N	N	N				Preference	Private residents																						
+N	N	N	N	I	I	I	I	I	I	I	I	I	I	I	R	I	R	R	I	N	N	N			N	N	N	N	I	I	I	I	I	I	I	I	I	I	I	R	I	R	R	I	N	N	N				Mixture format	Segmented																						
+N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	AH	AH	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N																											
+N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	AH	AH	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N				Development importance factors																							
+N	N	N	N	I	R	R	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	AH	AH	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N				Factor	Importance																						
+N	N	N	N	I	I	I	I	I	I	I	I	I	I	I	I	I	R	R	I	N	N	N			N	N	N	N	I	I	I	I	I	I	I	I	I	I	I	I	I	R	R	I	N	N	N				Time to Education	Medium																						
+N	N	N	N	I	N	I	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	N	I	AH	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N				Time to Commercial	Medium																						
+N	N	N	N	I	N	I	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	N	I	AH	AH	I	AH	AH	AH	R	I	R	I	R	R	I	N	N	N				Time to Socio-cultural uses	Medium																						
+N	N	N	N	I	N	I	R	R	I	R	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	N	I	AH	AH	I	AH	AH	AH	R	I	R	I	R	AH	I	N	N	N				Time to Public Greenspaces	Medium																						
+N	N	N	N	I	N	I	I	I	I	I	I	I	I	I	R	I	I	I	I	N	N	N			N	N	N	N	I	N	I	I	I	I	I	I	I	I	I	R	I	I	I	I	N	N	N				Time to Public Transport	Medium																						
+N	N	N	N	I	N	I	R	R	R	I	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	N	I	AH	AH	AH	I	AH	AH	AH	I	R	I	AH	AH	I	N	N	N																											
+N	N	N	N	I	N	I	R	R	R	I	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	N	I	AH	AH	AH	I	AH	AH	AH	I	AH	I	AH	AH	I	N	N	N				Mixed Tenure Development Outputs																							
+N	N	N	N	I	N	I	R	R	R	I	R	R	R	I	R	I	R	R	I	N	N	N			N	N	N	N	I	N	I	AH	AH	AH	I	AH	AH	AH	I	AH	I	AH	AH	I	N	N	N				Cost of Affordable housing lot	" $250,000.00 "																						
+N	N	N	N	I	N	I	R	R	R	I	I	R	R	I	I	I	R	R	I	N	N	N			N	N	N	N	I	N	I	AH	AH	AH	I	I	AH	AH	I	I	I	AH	AH	I	N	N	N				Cost of Residential lot	" $661,585.37 "																						
+N	N	N	N	I	N	I	I	I	I	I	I	I	I	I	I	I	R	R	I	N	N	N			N	N	N	N	I	N	I	I	I	I	I	I	I	I	I	I	I	AH	AH	I	N	N	N																											
+																																																																										
+Proposed Mixed Tenure Development																																																																										
+																									7	7	7	7	7	7	7	0	6	6	6	6	0	4	4	4	4	4	5	5	5	5	5																											
+																									7	7	7	7	7	7	7	0	6	6	6	6	0	4	4	4	4	4	5	5	5	5	5																											
+																									7	7	7	7	7	7	0	0	0	0	0	0	0	4	4	4	4	4	5	5	5	5	5																											
+																									7	7	7	7	7	7	0	3	3	3	3	3	0	4	4	4	4	4	5	5	5	5	5																											
+																									7	7	7	7	7	0	0	3	3	3	3	3	0	4	4	2	2	2	5	5	5	5	5																											
+																									7	7	7	7	7	0	0	3	3	3	3	3	0	2	2	2	2	2	5	5	5	5	5																											
+																									6	6	6	6	0	3	0	3	3	3	3	3	0	2	2	2	2	2	5	5	5	5	5																											
+																									6	6	6	6	0	3	0	3	3	3	3	3	3	0	2	2	2	2	5	5	5	5	5																											
+																									6	6	6	6	0	3	0	3	3	3	3	3	3	0	2	2	2	2	5	5	5	5	5																											
+																									6	6	6	6	0	3	0	0	0	0	3	3	3	0	2	2	2	2	5	5	5	5	5																											
+																									6	6	6	6	0	3	0	3	3	0	3	3	0	0	0	2	2	2	5	5	5	5	5																											
+																									6	6	6	6	0	3	0	3	3	0	3	0	0	0	0	4	4	4	5	5	5	5	5																											
+																									6	6	6	6	0	0	0	0	0	0	0	1	1	1	0	4	4	4	5	5	5	5	5																											
+																									6	6	6	6	0	0	0	0	0	0	1	1	1	1	0	4	4	4	5	5	5	5	5																											
+																									6	6	6	6	0	1	1	1	1	0	1	1	1	1	0	4	4	4	5	5	5	5	5																											
+																									6	6	6	6	0	1	1	1	1	0	1	1	1	1	0	0	0	0	0	0	6	6	6																											
+																									6	6	6	6	0	1	1	1	1	0	1	1	1	1	0	0	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	1	1	1	1	0	1	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	1	1	1	1	0	1	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	1	1	1	1	0	1	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	6	0	1	1	0	1	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	6	0	1	1	0	1	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	6	0	1	1	0	1	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	6	0	0	0	0	0	0	0	0	0	1	0	0	0	0	6	6	6																											
+																									6	6	6	6	0	6	0	1	1	1	0	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	6	0	1	1	1	0	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	6	0	1	1	1	0	1	1	1	0	1	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	6	0	1	1	1	0	0	1	1	0	0	0	1	1	0	6	6	6																											
+																									6	6	6	6	0	6	0	0	0	0	0	0	0	0	0	0	0	1	1	0	6	6	6																											
