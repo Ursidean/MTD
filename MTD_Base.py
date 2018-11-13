@@ -11,6 +11,12 @@ import os
 import sys
 import tkinter as tk
 from tkinter import ttk
+import matplotlib
+matplotlib.use("TkAgg")
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, \
+    NavigationToolbar2TkAgg
+from matplotlib.figure import Figure
+
 
 # 3rd party library imports
 
@@ -63,7 +69,7 @@ class MxdTenDevApp(tk.Tk):
         self.frames = {}
         # Iterate through frames to initialize. Must be included in tuple to
         # work.
-        for F in (StartPage, PageOne, PageTwo):
+        for F in (StartPage, PageOne, PageTwo, PageThree):
             frame = F(container, self)
 
             self.frames[F] = frame
@@ -87,12 +93,16 @@ class StartPage(tk.Frame):
         label.pack(pady=10, padx=10)
         # Start page button 1.
         button1 = ttk.Button(self, text="Visit Page 1",
-                            command=lambda: controller.show_frame(PageOne))
+                             command=lambda: controller.show_frame(PageOne))
         button1.pack()
-
+        # Start page button 2.
         button2 = ttk.Button(self, text="Visit Page 2",
-                            command=lambda: controller.show_frame(PageTwo))
+                             command=lambda: controller.show_frame(PageTwo))
         button2.pack()
+        # Start page button 3.
+        button3 = ttk.Button(self, text="Visit Page 3",
+                             command=lambda: controller.show_frame(PageThree))
+        button3.pack()
 
 
 class PageOne(tk.Frame):
@@ -105,11 +115,11 @@ class PageOne(tk.Frame):
         label.pack(pady=10, padx=10)
 
         button1 = ttk.Button(self, text="Back to Home",
-                            command=lambda: controller.show_frame(StartPage))
+                             command=lambda: controller.show_frame(StartPage))
         button1.pack()
 
         button2 = ttk.Button(self, text="Go to Page 2",
-                            command=lambda: controller.show_frame(PageTwo))
+                             command=lambda: controller.show_frame(PageTwo))
         button2.pack()
 
 
@@ -123,12 +133,40 @@ class PageTwo(tk.Frame):
         label.pack(pady=10, padx=10)
 
         button1 = ttk.Button(self, text="Back to Home",
-                            command=lambda: controller.show_frame(StartPage))
+                             command=lambda: controller.show_frame(StartPage))
         button1.pack()
 
         button2 = ttk.Button(self, text="Back to Page 1",
-                            command=lambda: controller.show_frame(PageOne))
+                             command=lambda: controller.show_frame(PageOne))
         button2.pack()
+
+
+class PageThree(tk.Frame):
+    """Page Three.
+
+    """
+    def __init__(self, parent, controller):
+        tk.Frame.__init__(self, parent)
+        label = tk.Label(self, text="Graph Page", font=H_txt)
+        label.pack(pady=10, padx=10)
+
+        button1 = ttk.Button(self, text="Back to Home",
+                             command=lambda: controller.show_frame(StartPage))
+        button1.pack()
+        # Generate the figure that will be plotted.
+        f = Figure(figsize=(5, 5), dpi=100)
+        a = f.add_subplot(111)
+        a.plot([1, 2, 3, 4, 5, 6], [5, 6, 3, 4, 8, 1])
+        # Canvas is used to show the figure in the Tkinter window.
+        canvas = FigureCanvasTkAgg(f, self)
+        canvas.show()
+        canvas.get_tk_widget().pack(side=tk.BOTTOM, fill=tk.BOTH, expand=True)
+        # Add a toolbar for navigating the Matplotlib Figure.
+        toolbar = NavigationToolbar2TkAgg(canvas, self)
+        toolbar.update()
+        canvas._tkcanvas.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+
+
 
 
 """Run the Application."""
