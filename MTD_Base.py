@@ -47,21 +47,29 @@ class MxdTenDevApp(tk.Tk):
     """
     def __init__(self, *args, **kwargs):
         tk.Tk.__init__(self, *args, *kwargs)
-        # Add container (main program).
-        container = tk.Frame(self)
+        # Add icon.
+        tk.Tk.iconbitmap(self, default="SMEC_Logo.ico")
+        # Add title text.
+        tk.Tk.wm_title(self, "Mixed Tenure Demand Model")
 
-        # Configuration of main window.
+        # Add containers (program windows).
+        container = tk.Frame(self)
+        # Configuration of window.
         container.pack(side="top", fill="both", expand=True)
         container.grid_rowconfigure(0, weight=1)
         container.grid_columnconfigure(0, weight=1)
 
         # Dictionary to store frames for each window.
         self.frames = {}
-        frame = StartPage(container, self)
+        # Iterate through frames to initialize. Must be included in tuple to
+        # work.
+        for F in (StartPage, PageOne, PageTwo):
+            frame = F(container, self)
 
-        # Initialise the start page frame.
-        self.frames[StartPage] = frame
-        frame.grid(row=0, column=0, sticky="nsew")
+            self.frames[F] = frame
+
+            frame.grid(row=0, column=0, sticky="nsew")
+
         self.show_frame(StartPage)
 
     def show_frame(self, cont):
@@ -77,6 +85,50 @@ class StartPage(tk.Frame):
         tk.Frame.__init__(self, parent)
         label = tk.Label(self, text="Start Page", font=H_txt)
         label.pack(pady=10, padx=10)
+        # Start page button 1.
+        button1 = ttk.Button(self, text="Visit Page 1",
+                            command=lambda: controller.show_frame(PageOne))
+        button1.pack()
+
+        button2 = ttk.Button(self, text="Visit Page 2",
+                            command=lambda: controller.show_frame(PageTwo))
+        button2.pack()
+
+
+class PageOne(tk.Frame):
+    """Page one.
+
+    """
+    def __init__(self, parent, controller):
+        tk.Frame.__init__(self, parent)
+        label = tk.Label(self, text="Page 1", font=H_txt)
+        label.pack(pady=10, padx=10)
+
+        button1 = ttk.Button(self, text="Back to Home",
+                            command=lambda: controller.show_frame(StartPage))
+        button1.pack()
+
+        button2 = ttk.Button(self, text="Go to Page 2",
+                            command=lambda: controller.show_frame(PageTwo))
+        button2.pack()
+
+
+class PageTwo(tk.Frame):
+    """Page Two.
+
+    """
+    def __init__(self, parent, controller):
+        tk.Frame.__init__(self, parent)
+        label = tk.Label(self, text="Page 2", font=H_txt)
+        label.pack(pady=10, padx=10)
+
+        button1 = ttk.Button(self, text="Back to Home",
+                            command=lambda: controller.show_frame(StartPage))
+        button1.pack()
+
+        button2 = ttk.Button(self, text="Back to Page 1",
+                            command=lambda: controller.show_frame(PageOne))
+        button2.pack()
 
 
 """Run the Application."""
