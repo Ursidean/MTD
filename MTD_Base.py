@@ -16,6 +16,8 @@ matplotlib.use("TkAgg")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, \
     NavigationToolbar2TkAgg
 from matplotlib.figure import Figure
+import matplotlib.animation as animation
+from matplotlib import style
 
 
 # 3rd party library imports
@@ -44,6 +46,27 @@ zone_map = np.loadtxt(data_path + "example_data.txt")
 # Font styles, Heading(H), Body(B)
 H_txt = ("Arial", 12)
 B_txt = ("Arial", 10)
+style.use("ggplot")
+
+# Generate the figure that will be plotted.
+f = Figure(figsize=(5, 5), dpi=100)
+a = f.add_subplot(111)
+
+
+def animate(i):
+    pullData = open("sampleData.txt", "r").read()
+    dataList = pullData.split('\n')
+    xList = []
+    yList = []
+    for eachLine in dataList:
+        if len(eachLine) > 1:
+            x, y = eachLine.split(',')
+            xList.append(int(x))
+            yList.append(int(y))
+    a.clear()
+    a.plot(xList, yList)
+
+
 
 
 # Mixed Tenure Development Application (MxdTenDevGUI).
@@ -151,10 +174,7 @@ class PageThree(tk.Frame):
         button1 = ttk.Button(self, text="Back to Home",
                              command=lambda: controller.show_frame(StartPage))
         button1.pack()
-        # Generate the figure that will be plotted.
-        f = Figure(figsize=(5, 5), dpi=100)
-        a = f.add_subplot(111)
-        a.plot([1, 2, 3, 4, 5, 6], [5, 6, 3, 4, 8, 1])
+
         # Canvas is used to show the figure in the Tkinter window.
         canvas = FigureCanvasTkAgg(f, self)
         canvas.show()
@@ -165,8 +185,7 @@ class PageThree(tk.Frame):
         canvas._tkcanvas.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
 
 
-
-
 """Run the Application."""
 app = MxdTenDevApp()
+ani = animation.FuncAnimation(f, animate, interval=1000)
 app.mainloop()
