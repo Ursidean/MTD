@@ -3,7 +3,7 @@ Program for design of a Mixed Tenure Development apartment block. User can
 provide a range of inputs and the program will design an apartment building
 meeting the specifications outlined.
 
-Copyright: Charles Peter Newland, SMEC
+Author: Charles Peter Newland, SMEC
 Date of inception: 09/01/2019
 Most recent update: 09/01/2019
 
