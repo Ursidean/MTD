@@ -6,7 +6,7 @@ program with user-specified inputs.
 Author: Charles Peter Newland, SMEC
 Email: charlesnewlandprofessional@outlook.com
 Date of inception: 23/01/2019
-Most recent update: 23/01/2019
+Most recent update: 25/01/2019
 """
 
 # STD library imports
@@ -24,7 +24,8 @@ DisclaimerText = "Welcome to the Mixed Tenure Development Model. This model " \
                  "is used to generate the layout of a mixed tenure apartment" \
                  " building based on user inputs." \
                  ""
-# Variable declaration.
+# Global variable declaration.
+
 # Unit Codes.
 UnitCodes = ["B1", "B2S", "B2L", "B3"]
 # Unit sizing
@@ -80,7 +81,7 @@ class MTDConsole(tk.Tk):
         self.frames = {}
         # Iterate through frames to initialize. Must be included in tuple to
         # work.
-        for F in (StartPage, InputPg1, InputPg2, InputPg3):
+        for F in (StartPage, InputPg1, InputPg2, InputPg3, ModelPg):
             frame = F(container, self)
 
             self.frames[F] = frame
@@ -286,9 +287,7 @@ class InputPg3(tk.Frame):
         # 3 Bedroom label
         Bed3_label = tk.Label(self, text="3 Bedroom:", font=B_txt)
         Bed3_label.place(relx=0, rely=0.55, anchor=tk.W)
-        # Affordability allocation label.
-        Aff_All_label = tk.Label(self, text="Affordable Allocation of Units (%)")
-        Aff_All_label.place(relx=0.50, rely=0.10, anchor=tk.N)
+
 
         # SCALE BARS
         # 1 Bedroom Scale bar.
@@ -305,7 +304,7 @@ class InputPg3(tk.Frame):
         Bed3_scale.place(relx=0.40, rely=0.55, anchor=tk.W, width=150)
         # Run button.
         run_button = ttk.Button(
-            self, text="Run Model", command=print("Hello")
+            self, text="Run Model", command=lambda: controller.show_frame(ModelPg)
         )
         run_button.place(relx=0.0, rely=1.0, anchor=tk.SW)
         # Back button.
@@ -317,6 +316,21 @@ class InputPg3(tk.Frame):
         # Quit button.
         quit_button = ttk.Button(self, text="Quit", command=quit)
         quit_button.place(relx=1.0, rely=1.0, anchor=tk.SE)
+
+
+class ModelPg(tk.Frame):
+    """Input page 3
+    Take the affordable housing inputs.
+    """
+    def __init__(self, parent, controller):
+        tk.Frame.__init__(self, parent)
+        # Entry
+        e = tk.Entry(self)
+        e.pack()
+        e.focus_set()
+        # Button
+        b = tk.Button(self, text="okay", command=printtext())
+        b.pack(side=tk.BOTTOM)
 
 
 # Run the application.

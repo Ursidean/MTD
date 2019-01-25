@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68ec514f-7555-4733-af14-930275d54ad7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Example1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MTD_console_1screen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MTD_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/MTD_console.py" afterDir="false" />
     </list>
@@ -15,55 +17,84 @@
     <session id="-2140888579">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.4" value="11" />
-          <entry key="project.open.time.5" value="3" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.open.time.4" value="12" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="14" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="58" />
           <entry key="dummy" value="12" />
-          <entry key="py" value="23131" />
+          <entry key="py" value="25737" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="23189" />
+          <entry key="Python" value="25795" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MTD_console.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="319" lean-forward="true" selection-start-line="319" selection-end-line="319" />
-              <folding>
-                <marker date="1548368088440" expanded="true" signature="1269:1271" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/MTD_console_1screen.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="158" column="63" lean-forward="true" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
+                  <folding>
+                    <element signature="e#321#332#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/MTD_apartment2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Example1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-68">
+                  <caret line="5" column="22" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -82,13 +113,15 @@
         <option value="$PROJECT_DIR$/MTD_apartment.py" />
         <option value="$PROJECT_DIR$/MTD_window.py" />
         <option value="$PROJECT_DIR$/MTD_apartment2.py" />
+        <option value="$PROJECT_DIR$/Example1.py" />
         <option value="$PROJECT_DIR$/MTD_console.py" />
+        <option value="$PROJECT_DIR$/MTD_console_1screen.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-102" />
+    <option name="y" value="-19" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
@@ -98,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,7 +147,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,8 +170,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MTD_console">
-    <configuration name="MTD_Base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MTD_console_1screen">
+    <configuration name="Example1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MTD" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -150,7 +183,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MTD_Base.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,18 +255,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MTD_console_1screen" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MTD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MTD_console_1screen.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.MTD_Base" />
       <item itemvalue="Python.MTD_apartment" />
       <item itemvalue="Python.MTD_apartment2" />
       <item itemvalue="Python.MTD_console" />
+      <item itemvalue="Python.Example1" />
+      <item itemvalue="Python.MTD_console_1screen" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MTD_console_1screen" />
+        <item itemvalue="Python.Example1" />
         <item itemvalue="Python.MTD_console" />
         <item itemvalue="Python.MTD_apartment2" />
         <item itemvalue="Python.MTD_apartment" />
-        <item itemvalue="Python.MTD_Base" />
       </list>
     </recent_temporary>
   </component>
@@ -253,19 +309,19 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11513859" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11727079" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49307036" weight="0.3286334" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4914712" weight="0.3286334" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49840087" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50692964" side_tool="true" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50852877" side_tool="true" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -303,19 +359,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MTD_apartment2.py">
+    <entry file="file://$PROJECT_DIR$/MTD_console.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="59" column="47" lean-forward="true" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+        <state relative-caret-position="408">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <marker date="1548394761605" expanded="true" signature="1277:1279" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MTD_console.py">
+    <entry file="file://$PROJECT_DIR$/Example1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="319" lean-forward="true" selection-start-line="319" selection-end-line="319" />
+        <state relative-caret-position="-68">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="22" />
           <folding>
-            <marker date="1548368088440" expanded="true" signature="1269:1271" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MTD_apartment2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="37" selection-start-line="37" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MTD_console_1screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="158" column="63" lean-forward="true" selection-start-line="158" selection-start-column="63" selection-end-line="158" selection-end-column="63" />
+          <folding>
+            <element signature="e#321#332#0" expanded="true" />
           </folding>
         </state>
       </provider>
